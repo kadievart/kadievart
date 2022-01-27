@@ -1,0 +1,47 @@
+.Body {
+  color: #030303;
+}
+
+.field {
+    width: 900px;
+    height: 700px;
+    border: 5px solid rgb(14, 14, 216);
+    background-color: rgba(49, 223, 72, 0.753); 
+    margin:30px 60px;
+    
+}
+.divC {
+    display:inline-block;
+    width: 320px;
+    height: 500px;
+    background-color: rgb(240, 240, 245);
+    margin-left: 80px;
+    border: 3px rgb(167, 19, 19) solid;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.divCl {
+    display:inline-block;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(240, 240, 245);
+    margin-left: 80px;
+    border: 3px rgb(167, 19, 19) solid;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.input {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 5px 350px;
+    width: 200px;
+    height: 30px;
+
+}
+
+.save {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 5px 380px; 
+}

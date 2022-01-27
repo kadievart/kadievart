@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="Body">
+    <h1 align="center">My ToDoList</h1>
+    
+    <div class="field">
+      <form>
+        <input class="input" type="text" id= "box" value= "Ввод задачи" onfocus="this.value= '' "/>
+        <input class="save" type= "button" value= "Сохранить задачу" onclick="addItem();"/>
+      </form>
+      <br/>
+      
+      <div class="divC" id= "list">Задачи</div>
+      <div class="divCl">Выполненные</div>
+ 
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
